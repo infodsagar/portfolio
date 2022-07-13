@@ -1,7 +1,7 @@
 export const About = () => {
   return (
     <>
-      <div>
+      <div class=' mt-64'>
         <span>About Me</span>
         <span className='font-sans Segoe Print'>
           I created my first website at 16 but never thought of turning my hobby
@@ -10,7 +10,7 @@ export const About = () => {
           contributing to that more significant cause excites me most. My
           primary expertise is making Web applications using React and
           JavaScript. Besides technology, I love visiting beaches while enjoying
-          Australia's beautiful weather.
+          Australia's beautiful <a href='#'>weather.</a>
         </span>
       </div>
     </>

@@ -6,7 +6,7 @@ import codelogo from '../images/codelogo.png';
 export const Home = () => {
   return (
     <>
-      <div>
+      <div id='home'>
         <Star />
         <div className='grid grid-cols-12 '>
           <div className='mb-20 flex flex-col justify-items-center min-h-[200px] text-center bg-[#00000061] col-start-2 col-span-10 md:col-span-4 md:col-start-5'>

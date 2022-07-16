@@ -2,14 +2,15 @@ import link from '../images/link.svg';
 import githublogo from '../images/githublogo.svg';
 import servicess from '../images/servicess.PNG';
 import amazonss from '../images/amazonss.PNG';
+import regoss from '../images/regoss.PNG';
 
 export const Projects = () => {
   return (
     <>
-      <div className='grid grid-cols-12 my-14'>
-        <div className=' col-start-3 col-span-10 md:col-span-10 md:col-start-2 my-4 flex flex-col items-center'>
+      <div className='grid grid-cols-12 my-14' id='projects'>
+        <div className=' col-start-2 col-span-10 md:col-span-10 md:col-start-2 my-4 flex flex-col items-center'>
           <span className='md:text-6xl text-4xl mb-20 '>Projects</span>
-          <div className='flex items-center my-24'>
+          <div className='flex flex-col md:flex-row items-center my-24'>
             <div>
               <div className='text-lg py-2'>Featured Project</div>
               <div className='text-xl py-2'>Service NSW Clone</div>
@@ -32,11 +33,11 @@ export const Projects = () => {
               <img src={servicess} alt='service' className='rounded-xl' />
             </div>
           </div>
-          <div className='flex items-center'>
+          <div className='flex flex-col md:flex-row items-center my-10'>
             <div>
               <div className='text-lg py-2'>Featured Project</div>
               <div className='text-xl py-2'>Amazon Clone</div>
-              <div className='text-xl bg-[#c60c3193] rounded-xl p-2 max-w-7xl'>
+              <div className='text-xl bg-[#f08a04dd] rounded-xl p-2 max-w-7xl'>
                 Amazon clone made using React, HTML, and CSS. In background
                 product data will be featched from API. Cart features such as
                 add items, delete items, display total amount and store data on
@@ -54,6 +55,31 @@ export const Projects = () => {
             </div>
             <div>
               <img src={amazonss} alt='service' className='rounded-xl' />
+            </div>
+          </div>
+          <div className='flex flex-col md:flex-row items-center my-10'>
+            <div>
+              <div className='text-lg py-2'>Featured Project</div>
+              <div className='text-xl py-2'>Refund Calculator</div>
+              <div className='text-xl bg-[#78b6f5e9] rounded-xl p-2 max-w-4xl'>
+                Refund calculator for canclede car regestration for Transport
+                for NSW. Date to date calculator. Display final round amount
+                after deducting admin and cancelation fees.
+              </div>
+              <span className='text-xl'>
+                React Bootstrap HTML CSS JavaScript
+              </span>
+              <div className='flex align-center gap-2'>
+                <a href='https://github.com/infodsagar/rego-calc'>
+                  <img src={githublogo} alt='git logo' />
+                </a>
+                <a href='https://rego-nsw.netlify.app/'>
+                  <img src={link} alt='git logo' />
+                </a>
+              </div>
+            </div>
+            <div>
+              <img src={regoss} alt='service' className='rounded-xl' />
             </div>
           </div>
         </div>

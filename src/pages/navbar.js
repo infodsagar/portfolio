@@ -7,7 +7,7 @@ export const Navbar = () => {
         <a href='#' className='ml-10 mr-5'>
           <img src={logo} className='h-20 p-2' />
         </a>
-        <div className='ml-auto mr-vw-7 self-center'>
+        <div className='ml-auto  self-center'>
           <a href='#' className='p-2'>
             Home
           </a>

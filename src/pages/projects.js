@@ -19,9 +19,9 @@ export const Projects = () => {
               <div className='text-lg py-2'>Featured Project</div>
               <div className='text-xl py-2'>Service NSW Clone</div>
               <div className='text-xl bg-[#c60c3193] rounded-xl p-2 max-w-7xl'>
-                Used Pure CSS and Vanila to clone Service NSW website. Features
-                includes tabs toggle hide/show, burger menu for collapsed
-                navbar.
+                Used Pure CSS and Vanilla to clone the Service NSW website.
+                Features include tabs toggle hide/show and a burger menu for the
+                collapsed navbar.
               </div>
               <span className='text-xl'>HTML CSS JavaScript</span>
               <div className='flex align-center absolute md:relative'>
@@ -42,10 +42,10 @@ export const Projects = () => {
               <div className='text-lg py-2'>Featured Project</div>
               <div className='text-xl py-2'>Amazon Clone</div>
               <div className='text-xl bg-[#f08a04dd] rounded-xl p-2 max-w-7xl'>
-                Amazon clone made using React, HTML, and CSS. In background
-                product data will be featched from API. Cart features such as
-                add items, delete items, display total amount and store data on
-                client local storage.
+                Amazon clone made using React, HTML, and CSS. In the background
+                product, data will be fetched from API. Cart features such as
+                adding items, deleting items, displaying the total amount, and
+                storing data on client local storage.
               </div>
               <span className='text-xl'>React HTML CSS JavaScript</span>
               <div className='flex align-center absolute md:relative'>
@@ -66,7 +66,7 @@ export const Projects = () => {
               <div className='text-lg py-2'>Featured Project</div>
               <div className='text-xl py-2'>Refund Calculator</div>
               <div className='text-xl bg-[#78b6f5e9] rounded-xl p-2 max-w-4xl'>
-                Refund calculator for canceled car regestration for Transport
+                Refund calculator for canceled car registration for Transport
                 for NSW. Date to date calculator. Display final round amount
                 after deducting admin and cancelation fees.
               </div>

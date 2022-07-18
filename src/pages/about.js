@@ -1,7 +1,7 @@
 export const About = () => {
   return (
     <>
-      <div className='my-64 grid grid-cols-12' id='about'>
+      <div className='my-[80px] py-40 grid grid-cols-12' id='about'>
         <div className='flex flex-col items-center col-start-2 col-span-10 md:col-span-8 md:col-start-3'>
           <div className='md:text-6xl text-4xl text-[#e8c4c4]'>About Me</div>
 

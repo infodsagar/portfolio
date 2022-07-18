@@ -4,6 +4,7 @@ import { About } from './about';
 import { Skills } from './skills';
 import { Projects } from './projects';
 import { Contact } from './contact';
+import { Star } from '../componant/star';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         }}
       >
         <Navbar />
+        <Star />
         <Home />
         <About />
         <Skills />

@@ -3,15 +3,17 @@ import tailwind from '../images/tailwind.svg';
 import css from '../images/css.svg';
 import git from '../images/git.svg';
 import java from '../images/java.svg';
-import react from '../images/react.svg';
+import reactlogo from '../images/reactlogo.svg';
 import boot from '../images/boot.svg';
 
 export const Skills = () => {
   return (
     <>
-      <div className='grid grid-cols-12' id='skills'>
+      <div className='grid grid-cols-12 py-18 mb-52' id='skills'>
         <div className='flex flex-col items-center col-start-3 col-span-10 md:col-span-6 md:col-start-4 my-4'>
-          <span className='md:text-6xl text-4xl my-4'>Skills</span>
+          <span className='md:text-6xl text-4xl my-24 mr-14 md:mr-0'>
+            Skills
+          </span>
           <div className='flex flex-wrap gap-10'>
             <div class='flex flex-col items-center'>
               <img src={html} className='w-[45px] h-[45px]' alt='logo img' />
@@ -30,7 +32,11 @@ export const Skills = () => {
               <span class='text-sm pt-3'>GIT</span>
             </div>
             <div class='flex flex-col items-center'>
-              <img src={react} className='w-[45px] h-[45px]' alt='logo img' />
+              <img
+                src={reactlogo}
+                className='w-[45px] h-[45px]'
+                alt='logo img'
+              />
               <span class='text-sm pt-3'>React</span>
             </div>
             <div class='flex flex-col items-center'>

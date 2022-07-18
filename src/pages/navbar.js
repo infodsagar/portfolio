@@ -3,31 +3,30 @@ import logo from '../images/logo.png';
 export const Navbar = () => {
   return (
     <>
-      <div className='mb-6 flex border-white border-b-[1px] bg-[#00000000] '>
-        <a href='/' className='md:ml-10 ml:5 mr-5'>
-          <img src={logo} className='h-20 p-2' />
+      <nav className='mb-6 flex bg-[#00000000] fixed right-10  z-10 '>
+        <a href='/' className='md:ml-10 ml:5 mr-5 mb-[-5px]'>
+          <img
+            src={logo}
+            className='md:h-20 h-16 p-2 left-8 fixed md:top-[-4px] top-[2px]'
+          />
         </a>
-        <div className='self-center absolute right-0'>
-          <a href='/' className='p-2'>
-            Home
-          </a>
-          <a href='about' className='p-2 '>
-            About
-          </a>
-          <a href='skills' className='p-2 '>
-            Skills
-          </a>
-          <a href='projects' className='p-2 '>
-            Projects
-          </a>
-          <a href='contact' className='p-2 '>
-            Contact
-          </a>
-          <a href='#' className='p-2'>
-            Resume
-          </a>
-        </div>
-      </div>
+        <a href='/' className='py-6 px-2'>
+          Home
+        </a>
+        <a href='#about' className='py-6 px-2'>
+          About
+        </a>
+        <a href='#skills' className='py-6 px-2 '>
+          Skills
+        </a>
+        <a href='#projects' className='py-6 px-2 '>
+          Projects
+        </a>
+        <a href='#message' className='py-6 px-2 '>
+          Contact
+        </a>
+      </nav>
+      <div className='border-b-2 border-white fixed top-[65px] md:top-[75px] min-w-[100%]'></div>
     </>
   );
 };

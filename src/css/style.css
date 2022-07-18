@@ -16,7 +16,6 @@
   width: 100%;
   height: 100%;
   transform: rotate(-45deg);
-  z-index: 0;
 }
 
 .star {
@@ -27,6 +26,7 @@
   --fall-duration: 9s;
   --tail-fade-duration: var(--fall-duration);
   position: absolute;
+
   top: var(--top-offset);
   left: 0;
   width: var(--star-tail-length);
@@ -348,6 +348,7 @@
 .star::before,
 .star::after {
   position: absolute;
+
   content: '';
   top: 0;
   left: calc(var(--star-width) / -2);

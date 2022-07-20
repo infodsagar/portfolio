@@ -9,7 +9,7 @@ import boot from '../images/boot.svg';
 export const Skills = () => {
   return (
     <>
-      <div className='grid grid-cols-12 py-18 mb-52' id='skills'>
+      <div className='grid grid-cols-12 py-18 xl:py-40 mb-52' id='skills'>
         <div className='flex flex-col items-center col-start-3 col-span-10 md:col-span-6 md:col-start-4 my-4'>
           <span className='md:text-6xl text-4xl my-24 mr-14 md:mr-0'>
             Skills

@@ -18,8 +18,11 @@ export const Projects = () => {
             <div>
               <div className='text-lg py-2'>Featured Project</div>
               <div className='text-xl py-2'>Service NSW Clone</div>
-              <div className='text-xl bg-[#c60c3193] rounded-xl p-2 max-w-7xl'>
-                Used Pure CSS and Vanilla to clone the Service NSW website.
+              <div
+                className='text-xl bg-[#c60c3193] rounded-xl p-2 max-w-7xl'
+                style={{ fontFamily: 'Lucida Console, monospace' }}
+              >
+                Used Pure CSS and Vanilla JS to clone the Service NSW website.
                 Features include tabs toggle hide/show and a burger menu for the
                 collapsed navbar.
               </div>
@@ -41,7 +44,10 @@ export const Projects = () => {
             <div>
               <div className='text-lg py-2'>Featured Project</div>
               <div className='text-xl py-2'>Amazon Clone</div>
-              <div className='text-xl bg-[#f08a04dd] rounded-xl p-2 max-w-7xl'>
+              <div
+                className='text-xl bg-[#f08a04b4] rounded-xl p-2 max-w-7xl'
+                style={{ fontFamily: 'Lucida Console, monospace' }}
+              >
                 Amazon clone made using React, HTML, and CSS. In the background
                 product, data will be fetched from API. Cart features such as
                 adding items, deleting items, displaying the total amount, and
@@ -65,7 +71,10 @@ export const Projects = () => {
             <div>
               <div className='text-lg py-2'>Featured Project</div>
               <div className='text-xl py-2'>Refund Calculator</div>
-              <div className='text-xl bg-[#78b6f5e9] rounded-xl p-2 max-w-4xl'>
+              <div
+                className='text-xl bg-[#78b6f5e9] rounded-xl p-2 max-w-4xl'
+                style={{ fontFamily: 'Lucida Console, monospace' }}
+              >
                 Refund calculator for canceled car registration for Transport
                 for NSW. Date to date calculator. Display final round amount
                 after deducting admin and cancelation fees.

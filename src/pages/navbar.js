@@ -13,11 +13,13 @@ export const Navbar = () => {
   const handleScroll = debounce(() => {
     const currentScrollPos = window.pageYOffset;
 
-    setVisible(
-      (prevScrollPos > currentScrollPos &&
-        prevScrollPos - currentScrollPos > 70) ||
-        currentScrollPos < 10
-    );
+    if (!open) {
+      setVisible(
+        (prevScrollPos > currentScrollPos &&
+          prevScrollPos - currentScrollPos > 70) ||
+          currentScrollPos < 10
+      );
+    }
 
     setPrevScrollPos(currentScrollPos);
   }, 100);
@@ -85,7 +87,7 @@ export const Navbar = () => {
         </a>
         <button
           type='button'
-          className='py-5 md:hidden text-xl min-w-[50px]'
+          className='py-5 md:hidden text-xl cursor-pointer'
           onClick={handleClick}
         >
           <FontAwesomeIcon icon={open ? faClose : faBars}></FontAwesomeIcon>
@@ -94,7 +96,7 @@ export const Navbar = () => {
           className={
             open
               ? 'flex flex-col items-center md:hidden top-[68px] min-w-[130px] right-0 fixed bg-[#040404ab]'
-              : 'flex flex-col items-center md:hidden hidden top-[68px] min-w-[130px] right-0 fixed bg-[#040404ab]'
+              : 'hidden'
           }
           ref={ref}
         >

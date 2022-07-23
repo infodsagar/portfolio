@@ -14,39 +14,59 @@ export const Skills = () => {
           <span className='md:text-6xl text-4xl my-24 mr-14 md:mr-0'>
             Skills
           </span>
-          <div className='flex flex-wrap gap-10'>
+          <div className='flex flex-wrap gap-10 absolute mt-52'>
             <div class='flex flex-col items-center'>
-              <img src={html} className='w-[45px] h-[45px]' alt='logo img' />
+              <img
+                src={html}
+                className='w-[45px] h-[45px] hover:scale-150 '
+                alt='logo img'
+              />
               <span class='text-sm pt-3'>HTML</span>
             </div>
             <div class='flex flex-col items-center'>
-              <img src={css} className='w-[45px] h-[45px] ' alt='logo img' />
+              <img
+                src={css}
+                className='w-[45px] h-[45px] hover:scale-150'
+                alt='logo img'
+              />
               <span class='text-sm pt-3'>CSS</span>
             </div>
             <div class='flex flex-col items-center'>
-              <img src={java} className='w-[45px] h-[45px]' alt='logo img' />
+              <img
+                src={java}
+                className='w-[45px] h-[45px] hover:scale-150'
+                alt='logo img'
+              />
               <span class='text-sm pt-3'>JavaScript</span>
             </div>
             <div class='flex flex-col items-center'>
-              <img src={git} className='w-[45px] h-[45px]' alt='logo img' />
+              <img
+                src={git}
+                className='w-[45px] h-[45px] hover:scale-150'
+                alt='logo img'
+              />
               <span class='text-sm pt-3'>GIT</span>
             </div>
             <div class='flex flex-col items-center'>
               <img
                 src={reactlogo}
-                className='w-[45px] h-[45px]'
+                className='w-[45px] h-[45px] hover:scale-150'
                 alt='logo img'
               />
               <span class='text-sm pt-3'>React</span>
             </div>
             <div class='flex flex-col items-center'>
-              <img src={boot} className='w-[47px] h-[45px]' alt='logo img' />
+              <img
+                src={boot}
+                className='w-[47px] h-[45px] hover:scale-150'
+                alt='logo img'
+              />
               <span class='text-sm pt-3'>Bootstrap</span>
             </div>
             <div class='flex flex-col items-center'>
               <img
                 src={tailwind}
-                className='w-[45px] h-[45px]'
+                className='w-[45px] h-[45px] hover:scale-150'
                 alt='logo img'
               />
               <span class='text-sm pt-3'>Tailwind</span>

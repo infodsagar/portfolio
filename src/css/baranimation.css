@@ -1,0 +1,83 @@
+body {
+  margin: 0%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(41, 42, 45, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+#block-1 {
+  background: rgba(0, 146, 70, 0.9);
+  box-shadow: inset 0px 0px 10px 2px rgba(0, 146, 70, 0.5),
+    0px 0px 20px rgba(0, 146, 70, 0.5);
+}
+
+#block-1 {
+  animation: pulse1 1s alternate 2;
+}
+
+@keyframes pulse1 {
+  0% {
+    background: rgba(0, 146, 70, 1);
+    box-shadow: inset 0px 0px 10px 2px rgba(0, 146, 70, 0.5),
+      0px 0px 40px 2px rgba(0, 146, 70, 1);
+  }
+  100% {
+    background: rgba(0, 146, 70, 0);
+    box-shadow: inset 0px 0px 10px 2px rgba(0, 146, 70, 0.5),
+      0px 0px 30px 2px rgba(0, 146, 70, 0.3);
+  }
+}
+
+/***** 2nd Child ******/
+
+#block-2 {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0px 0px 10px 2px rgba(117, 182, 255, 0.5),
+    0px 0px 20px rgba(117, 182, 214, 0.5);
+}
+
+#block-2 {
+  animation: pulse2 1s alternate 1;
+  animation-delay: 2s;
+}
+
+@keyframes pulse2 {
+  0% {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: inset 0px 0px 10px 2px rgba(117, 182, 255, 0.5),
+      0px 0px 40px 2px rgba(105, 135, 255, 1);
+  }
+  100% {
+    background: rgba(255, 255, 255, 0);
+    box-shadow: inset 0px 0px 10px 2px rgba(117, 182, 255, 0.5),
+      0px 0px 30px 2px rgba(105, 135, 255, 0.3);
+  }
+}
+
+/***** 3rd Child  *********/
+
+#block-3 {
+  background: rgba(206, 43, 55, 0.9);
+  box-shadow: inset 0px 0px 10px 2px rgba(206, 43, 55, 0.5),
+    0px 0px 20px rgba(206, 43, 55, 0.5);
+}
+
+#block-3 {
+  animation: pulse3 1s alternate 2;
+
+  animation-delay: 4s;
+}
+
+@keyframes pulse3 {
+  0% {
+    background: rgba(206, 43, 55, 1);
+    box-shadow: inset 0px 0px 10px 2px rgba(206, 43, 55, 0.5),
+      0px 0px 40px 2px rgba(206, 43, 55, 1);
+  }
+  100% {
+    background: rgba(206, 43, 55, 0);
+    box-shadow: inset 0px 0px 10px 2px rgba(206, 43, 55, 0.5),
+      0px 0px 30px 2px rgba(206, 43, 55, 0.3);
+  }
+}

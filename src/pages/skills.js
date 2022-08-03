@@ -5,16 +5,18 @@ import git from '../images/git.svg';
 import java from '../images/java.svg';
 import reactlogo from '../images/reactlogo.svg';
 import boot from '../images/boot.svg';
+import node from '../images/node.svg';
+import mongo from '../images/mongo.svg';
+import next from '../images/next.svg';
+import express from '../images/express.svg';
 
 export const Skills = () => {
   return (
     <>
-      <div className='grid grid-cols-12 py-18 xl:py-40 mb-52' id='skills'>
+      <div className='grid grid-cols-12 py-18 2xl:py-40 mb-72 ' id='skills'>
         <div className='flex flex-col items-center col-start-3 col-span-10 md:col-span-6 md:col-start-4 my-4'>
-          <span className='md:text-6xl text-4xl my-24 mr-14 md:mr-0'>
-            Skills
-          </span>
-          <div className='flex flex-wrap gap-10 absolute mt-52'>
+          <span className='md:text-6xl text-4xl my-24 mr-14'>Skills</span>
+          <div className='flex flex-wrap gap-10 absolute mt-52 mb-40 md:max-w-xl xl:max-w-2xl'>
             <div class='flex flex-col items-center'>
               <img
                 src={html}
@@ -70,6 +72,38 @@ export const Skills = () => {
                 alt='logo img'
               />
               <span class='text-sm pt-3'>Tailwind</span>
+            </div>
+            <div class='flex flex-col items-center'>
+              <img
+                src={node}
+                className='w-[45px] h-[45px] hover:scale-150'
+                alt='logo img'
+              />
+              <span class='text-sm pt-3'>Node JS</span>
+            </div>
+            <div class='flex flex-col items-center'>
+              <img
+                src={mongo}
+                className='w-[45px] h-[45px] hover:scale-150'
+                alt='logo img'
+              />
+              <span class='text-sm pt-3'>Mongo DB</span>
+            </div>
+            <div class='flex flex-col items-center'>
+              <img
+                src={next}
+                className='w-[45px] h-[45px] hover:scale-150'
+                alt='logo img'
+              />
+              <span class='text-sm pt-3'>Next JS</span>
+            </div>
+            <div class='flex flex-col items-center'>
+              <img
+                src={express}
+                className='w-[45px] h-[45px] hover:scale-150'
+                alt='logo img'
+              />
+              <span class='text-sm pt-3'>Express JS</span>
             </div>
           </div>
         </div>

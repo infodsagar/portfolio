@@ -11,9 +11,9 @@ import regoss from '../images/regoss.PNG';
 export const Projects = () => {
   return (
     <>
-      <div className='grid grid-cols-12 my-14 py-10' id='projects'>
-        <div className=' col-start-2 col-span-10 md:col-span-10 md:col-start-2 my-4 flex flex-col items-center'>
-          <span className='md:text-6xl text-4xl mb-4 '>Projects</span>
+      <div className='grid grid-cols-12 mt-[500px] py-10 ' id='projects'>
+        <div className=' col-start-2 col-span-10 md:col-span-10 md:col-start-2 mb-4 mt-6  flex flex-col items-center'>
+          <span className='md:text-6xl text-4xl mb-4'>Projects</span>
           <div className='flex flex-col md:flex-row items-center my-24'>
             <div>
               <div className='text-lg py-2'>Featured Project</div>

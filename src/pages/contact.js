@@ -31,21 +31,22 @@ export const Contact = () => {
 
   return (
     <>
-      <div className='grid grid-cols-12 mt-24' id='message'>
-        <div className=' col-start-2 col-span-10 md:col-span-6 md:col-start-4 my-4 flex flex-col items-center'>
-          <span className='md:text-6xl text-4xl mb-[400px]'>Get in Touch</span>
-
+      <div className='grid grid-cols-12 mt-28 2xl:mt-48' id='message'>
+        <div className=' col-start-2 col-span-10 md:col-span-6 md:col-start-4 flex flex-col items-center mb-44'>
+          <span className='md:text-6xl text-4xl pt-20 mb-[500px] xl:mb-[300px] 2xl:mb-[600px]'>
+            Get in Touch
+          </span>
           <form
             ref={form}
             onSubmit={handleSubmit}
-            className='flex flex-col  items-center my-4  p-2 md:mt-40 mt-32 absolute text-black'
+            className='flex flex-col  items-center my-4  p-2 2xl:mt-40 mt-36 absolute text-black'
           >
             <input
               type='text'
               id='name'
               name='name'
               placeholder='Your name'
-              className='my-2 rounded-xl md:w-[40vw] w-[70vw] py-2 pl-2'
+              className='my-2 rounded-xl xl:w-[40vw] w-[70vw] 2xl:w-[30vw] py-2 pl-2'
               required
             />
             <input
@@ -53,7 +54,7 @@ export const Contact = () => {
               id='email'
               name='email'
               placeholder='Your email'
-              className='my-2 rounded-xl md:w-[40vw] w-[70vw] py-2 pl-2'
+              className='my-2 rounded-xl xl:w-[40vw] w-[70vw] 2xl:w-[30vw] py-2 pl-2'
               required
             />
             <input
@@ -61,7 +62,7 @@ export const Contact = () => {
               id='message'
               name='message'
               placeholder='Hello Sagar!,'
-              className='my-2 rounded-xl md:w-[40vw] w-[70vw] py-2 pl-2'
+              className='my-2 rounded-xl xl:w-[40vw] w-[70vw] 2xl:w-[30vw] py-2 pl-2'
               required
             />
             <button
@@ -70,7 +71,7 @@ export const Contact = () => {
               className={
                 c
                   ? c
-                  : 'border-white border-2 rounded-xl md:w-[30vw] w-[50vw] my-6 py-2 text-white'
+                  : 'border-white border-2 rounded-xl xl:w-[30vw] w-[50vw] 2xl:w-[20vw] my-6 py-2 text-white'
               }
             >
               Submit

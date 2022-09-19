@@ -9,6 +9,7 @@ import node from '../images/node.svg';
 import mongo from '../images/mongo.svg';
 import next from '../images/next.svg';
 import express from '../images/express.svg';
+import mui from '../images/mui.svg';
 
 export const Skills = () => {
   return (
@@ -104,6 +105,14 @@ export const Skills = () => {
                 alt='logo img'
               />
               <span class='text-sm pt-3'>Express JS</span>
+            </div>
+            <div class='flex flex-col items-center'>
+              <img
+                src={mui}
+                className='w-[45px] h-[45px] hover:scale-150'
+                alt='logo img'
+              />
+              <span class='text-sm pt-3'>Material UI</span>
             </div>
           </div>
         </div>

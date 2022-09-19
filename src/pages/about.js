@@ -12,11 +12,12 @@ export const About = () => {
             style={{ fontFamily: 'Lucida Console, monospace' }}
           >
             <div className='py-2'>
-              A front-end developer crafting delightful experiences and products
-              on the web.
+              A full-stack developer crafting delightful experiences and
+              products on the web.
             </div>
             <div className='py-2'>
-              I’m passionate about building high-quality web Apps and UI/UX.
+              I’m passionate about building high-quality UI/UX supported with
+              APIs.
             </div>
             <div className='py-2'>
               How technology has changed the world so far, and it will, is

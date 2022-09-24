@@ -33,7 +33,6 @@ export const Navbar = () => {
 
   const handleClick = (e) => {
     setOpen(!open);
-    console.log('ref2');
   };
 
   useEffect(() => {

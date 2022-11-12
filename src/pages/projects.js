@@ -37,10 +37,10 @@ export const Projects = () => {
                 Node.js Socket.io React Material UI, Tailwind
               </span>
               <div className='flex align-center absolute md:relative'>
-                <a href='https://github.com/infodsagar/chat'>
+                <a href='https://github.com/infodsagar/chat' target='_blank'>
                   <img src={githubseagreen} alt='git logo' />
                 </a>
-                <a href='https://sagar-chat.netlify.app/'>
+                <a href='https://sagar-chat.netlify.app/' target='_blank'>
                   <img src={linksea} alt='git logo' />
                 </a>
               </div>
@@ -66,10 +66,10 @@ export const Projects = () => {
                 Node.js Expres.js MongoDB React Material UI
               </span>
               <div className='flex align-center absolute md:relative'>
-                <a href='https://github.com/infodsagar/omni'>
+                <a href='https://github.com/infodsagar/omni' target='_blank'>
                   <img src={githublogored} alt='git logo' />
                 </a>
-                <a href='https://omni-notes.herokuapp.com/'>
+                <a href='https://omni-notes.herokuapp.com/' target='_blank'>
                   <img src={linkred} alt='git logo' />
                 </a>
               </div>
@@ -93,10 +93,13 @@ export const Projects = () => {
               </div>
               <span className='text-xl'>React HTML CSS JavaScript</span>
               <div className='flex align-center absolute md:relative'>
-                <a href='https://github.com/infodsagar/amazon-clone'>
+                <a
+                  href='https://github.com/infodsagar/amazon-clone'
+                  target='_blank'
+                >
                   <img src={githublogoora} alt='git logo' />
                 </a>
-                <a href='https://amazon-react-1.netlify.app/'>
+                <a href='https://amazon-react-1.netlify.app/' target='_blank'>
                   <img src={linkora} alt='git logo' />
                 </a>
               </div>
@@ -121,10 +124,13 @@ export const Projects = () => {
                 React Bootstrap HTML CSS JavaScript
               </span>
               <div className='flex align-center absolute md:relative'>
-                <a href='https://github.com/infodsagar/rego-calc'>
+                <a
+                  href='https://github.com/infodsagar/rego-calc'
+                  target='_blank'
+                >
                   <img src={githublogoblue} alt='git logo' />
                 </a>
-                <a href='https://rego-nsw.netlify.app/'>
+                <a href='https://rego-nsw.netlify.app/' target='_blank'>
                   <img src={linkblue} alt='git logo' />
                 </a>
               </div>

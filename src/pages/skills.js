@@ -10,6 +10,7 @@ import mongo from '../images/mongo.svg';
 import next from '../images/next.svg';
 import express from '../images/express.svg';
 import mui from '../images/mui.svg';
+import typelogo from '../images/typelogo.svg';
 
 export const Skills = () => {
   return (
@@ -57,6 +58,14 @@ export const Skills = () => {
                 alt='logo img'
               />
               <span class='text-sm pt-3'>React</span>
+            </div>
+            <div class='flex flex-col items-center'>
+              <img
+                src={typelogo}
+                className='w-[45px] h-[45px] hover:scale-150'
+                alt='typescript img'
+              />
+              <span class='text-sm pt-3'>TypeScript</span>
             </div>
             <div class='flex flex-col items-center'>
               <img

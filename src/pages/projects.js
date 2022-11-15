@@ -37,10 +37,18 @@ export const Projects = () => {
                 Node.js Socket.io React Material UI, Tailwind
               </span>
               <div className='flex align-center absolute md:relative'>
-                <a href='https://github.com/infodsagar/chat' target='_blank'>
+                <a
+                  href='https://github.com/infodsagar/chat'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <img src={githubseagreen} alt='git logo' />
                 </a>
-                <a href='https://sagar-chat.netlify.app/' target='_blank'>
+                <a
+                  href='https://sagar-chat.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <img src={linksea} alt='git logo' />
                 </a>
               </div>
@@ -66,10 +74,18 @@ export const Projects = () => {
                 Node.js Expres.js MongoDB React Material UI
               </span>
               <div className='flex align-center absolute md:relative'>
-                <a href='https://github.com/infodsagar/omni' target='_blank'>
+                <a
+                  href='https://github.com/infodsagar/omni'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <img src={githublogored} alt='git logo' />
                 </a>
-                <a href='https://omni-notes.herokuapp.com/' target='_blank'>
+                <a
+                  href='https://omni-notes.herokuapp.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <img src={linkred} alt='git logo' />
                 </a>
               </div>
@@ -96,10 +112,15 @@ export const Projects = () => {
                 <a
                   href='https://github.com/infodsagar/amazon-clone'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   <img src={githublogoora} alt='git logo' />
                 </a>
-                <a href='https://amazon-react-1.netlify.app/' target='_blank'>
+                <a
+                  href='https://amazon-react-1.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <img src={linkora} alt='git logo' />
                 </a>
               </div>
@@ -127,10 +148,15 @@ export const Projects = () => {
                 <a
                   href='https://github.com/infodsagar/rego-calc'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   <img src={githublogoblue} alt='git logo' />
                 </a>
-                <a href='https://rego-nsw.netlify.app/' target='_blank'>
+                <a
+                  href='https://rego-nsw.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <img src={linkblue} alt='git logo' />
                 </a>
               </div>

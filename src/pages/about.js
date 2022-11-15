@@ -27,10 +27,6 @@ export const About = () => {
               Being part of the IT industry and contributing to that more
               significant cause excites me most.
             </div>
-            <div className='py-2'>
-              Besides technology, I love visiting beaches while enjoying
-              Australia's beautiful weather.
-            </div>
           </span>
         </div>
       </div>

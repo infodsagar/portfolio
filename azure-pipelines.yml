@@ -22,16 +22,9 @@ steps:
   displayName: 'npm install and build'
 
 
-- task: ArchiveFiles@2
-  inputs:
-    rootFolderOrFile: 'build'
-    includeRootFolder: true
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-    replaceExistingArchive: true
-
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'debug'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+

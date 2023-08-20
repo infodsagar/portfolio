@@ -26,5 +26,5 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
-    publishLocation: 'FilePath'
+    publishLocation: 'C:\DevOpsAgent\_work\1\a'
 

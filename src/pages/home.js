@@ -12,7 +12,7 @@ export const Home = () => {
           <span className='md:text-4xl text-2xl p-2'>Sagar Dobariya</span>
           <span className='p-2'>Full-stack Developer</span>
           <a
-            href='https://drive.google.com/file/d/1t31zRxN3O3i-L7GXCa2mTFVhOIznjmll/view?usp=sharing'
+            href='https://drive.google.com/file/d/1ks4cvrbte2PZ496zDtAfWYAx94zhrscb/view?usp=sharing'
             className='px-2 py-[1px]  border-2 rounded-lg '
             target='_blank'
             rel='noopener noreferrer'

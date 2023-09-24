@@ -11,6 +11,8 @@ import next from '../images/next.svg';
 import express from '../images/express.svg';
 import mui from '../images/mui.svg';
 import typelogo from '../images/typelogo.svg';
+import clogo from '../images/clogo.svg';
+import asplogo from '../images/asplogo.svg';
 
 export const Skills = () => {
   return (
@@ -82,6 +84,22 @@ export const Skills = () => {
                 alt='logo img'
               />
               <span class='text-sm pt-3'>Tailwind</span>
+            </div>
+            <div class='flex flex-col items-center'>
+              <img
+                src={asplogo}
+                className='w-[45px] h-[45px] hover:scale-150'
+                alt='logo img'
+              />
+              <span class='text-sm pt-3'>.NET core</span>
+            </div>
+            <div class='flex flex-col items-center'>
+              <img
+                src={clogo}
+                className='w-[45px] h-[45px] hover:scale-150'
+                alt='logo img'
+              />
+              <span class='text-sm pt-3'>C#</span>
             </div>
             <div class='flex flex-col items-center'>
               <img

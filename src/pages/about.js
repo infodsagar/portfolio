@@ -12,20 +12,15 @@ export const About = () => {
             style={{ fontFamily: 'Lucida Console, monospace' }}
           >
             <div className='py-2'>
-              A full-stack developer crafting delightful experiences and
-              products on the web.
+              A full-stack developer crafting bespoke solutions and software.
             </div>
             <div className='py-2'>
               I’m passionate about building high-quality UI/UX supported with
-              APIs.
+              APIs, Algorithms and design standards.
             </div>
             <div className='py-2'>
-              How technology has changed the world so far, and it will, is
-              fascinating to me.
-            </div>
-            <div classsName='py-2'>
-              Being part of the IT industry and contributing to that more
-              significant cause excites me most.
+              Making positive impact using technology is my motivation and
+              unique challanges are my fuel.
             </div>
           </span>
         </div>

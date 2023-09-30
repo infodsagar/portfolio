@@ -9,7 +9,7 @@ export const Home = () => {
     <>
       <div className='grid grid-cols-12'>
         <div className='flex flex-col items-center bg-[#2c2c2c6d] col-start-2 col-span-10 md:col-span-6 md:col-start-4 lg:col-span-4 lg:col-start-5 xl:col-span-4 xl:col-start-5 mt-[250px] 2xl:mt-[400px] rounded-md'>
-          <span className='md:text-4xl text-2xl p-2'>Sagar Dobariya</span>
+          <span className='md:text-4xl text-2xl p-2'>Sagar Dobariya!</span>
           <span className='p-2'>Full-stack Developer</span>
           <a
             href='https://drive.google.com/file/d/1ks4cvrbte2PZ496zDtAfWYAx94zhrscb/view?usp=sharing'
